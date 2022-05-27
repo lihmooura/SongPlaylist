@@ -13,7 +13,7 @@ public class Main {
 		ArrayList<Album> albums = new ArrayList<>();
 		
 		Album album = new Album( "Album1", "Artist1", null);
-		
+//		Generate tracks list
 		album.addSong("title1", 6.5);
 		album.addSong("title2", 2.5);
 		album.addSong("title3", 1.5);
@@ -36,7 +36,7 @@ public class Main {
 		play(playList_1);
 		
 	}
-	
+
 	private static void play(LinkedList<Song> playList) {
 		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
